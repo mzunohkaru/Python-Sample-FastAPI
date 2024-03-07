@@ -1,3 +1,7 @@
+## Youtube
+
+https://www.youtube.com/watch?v=Yqif6IAQuJE
+
 $ uvicorn bootcamp_get:app --reload
 
 $ uvicorn bootcamp_post:app --reload

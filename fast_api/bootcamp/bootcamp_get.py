@@ -3,6 +3,15 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
+
+# @app.get("/index/{item_id}")
+# def index(
+#     item_id: str,  <- パスパラメーター
+#     skip: int = 0, <- クエリパラメーター
+#     limit: int = 10):  <- クエリパラメーター
+#     return {}
+
+
 # パスパラメーター
 @app.get("/user/{name}")
 async def user(name: str):
